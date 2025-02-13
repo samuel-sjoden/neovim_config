@@ -1,5 +1,8 @@
 local opt = vim.opt
 
+vim.g.lazyvim_python_lsp = "pyright"
+vim.g.lazyvim_python_ruff = "ruff"
+
 opt.relativenumber = true
 opt.number = true
 
