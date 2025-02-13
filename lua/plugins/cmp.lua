@@ -10,6 +10,9 @@ return {
       ['<C-k>'] = { 'select_prev', 'fallback' },
       ['<C-enter>'] = { 'show', 'show_documentation', 'hide_documentation' },
     },
+    signature = {
+      enabled = true
+    },
     appearance = {
       use_nvim_cmp_as_default = true,
       nerd_font_variant = 'mono'
