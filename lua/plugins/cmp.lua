@@ -5,13 +5,22 @@ return {
   version = '*',
 
   opts = {
-    keymap = { preset = 'none',
+    keymap = {
+      preset = 'none',
       ['<C-j>'] = { 'select_next', 'fallback' },
       ['<C-k>'] = { 'select_prev', 'fallback' },
       ['<C-enter>'] = { 'show', 'show_documentation', 'hide_documentation' },
     },
     signature = {
       enabled = true
+    },
+    completion = {
+      list = {
+        selection = {
+          preselect = false,
+          auto_insert = true
+        }
+      }
     },
     appearance = {
       use_nvim_cmp_as_default = true,
