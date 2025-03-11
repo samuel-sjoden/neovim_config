@@ -16,9 +16,6 @@ return {
       }
     })
 
-  autopairs.remove_rule('"')
-  autopairs.remove_rule("'")
-  autopairs.remove_rule("(")
 
   local cmp_autopairs = require("nvim-autopairs.completion.cmp")
   local cmp = require("cmp")

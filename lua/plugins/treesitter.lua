@@ -48,6 +48,7 @@ return {
         "latex",
         "ninja",
         "rst",
+        "python",
       },
       incremental_selection = {
         enable = true,
