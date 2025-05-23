@@ -13,7 +13,7 @@ return {
         "--completion-style=detailed",
         "--function-arg-placeholders",
         "--fallback-style=llvm",
-        "--compile-commands-dir=."
+        "--compile-commands-dir=build"
       },
       keys = {
         { "<leader>ch", "<cmd>ClangdSwitchSourceHeader<cr>", desc = "Switch Source/Header (C/C++)" },
