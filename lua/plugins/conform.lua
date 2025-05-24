@@ -18,7 +18,7 @@ return {
           toml = { "taplo" },
           css = { { "prettierd", "prettier", stop_after_first = true } },
           sh = { "shellcheck" },
-          python = { "pyink" }
+          python = { "black" }
         },
       })
 
