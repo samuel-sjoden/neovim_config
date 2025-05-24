@@ -26,3 +26,4 @@ set("n", "<leader>x", "<cmd>!chmod +x %<CR>", {silent = true})
 set("n", "<leader>u", ":UndotreeToggle<CR>")
 
 set("n", "<leader>ls", ":LspStop<CR>")
+set("n", "<leader>li", ":lua vim.diagnostic.open_float()<CR>")
