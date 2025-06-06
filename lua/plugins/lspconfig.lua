@@ -41,9 +41,6 @@ return {
       },
     }
 
-    -- JDTLS Setup for Java
-    lspconfig.jdtls.setup {
-    }
 
     -- Lua LS Setup
     lspconfig.lua_ls.setup {
