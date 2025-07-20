@@ -13,7 +13,7 @@ return {
     set("n", "<C-e>", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end, { desc = "Open Harpoon menu" })
 
     -- Jump to files (first 4 slots)
-    set("n", "<C-h>", function() harpoon:list():select(1) end, { desc = "Go to Harpoon file 1" })
+    set("n", "<C-y>", function() harpoon:list():select(1) end, { desc = "Go to Harpoon file 1" })
     set("n", "<C-t>", function() harpoon:list():select(2) end, { desc = "Go to Harpoon file 2" })
     set("n", "<C-n>", function() harpoon:list():select(3) end, { desc = "Go to Harpoon file 3" })
     set("n", "<C-s>", function() harpoon:list():select(4) end, { desc = "Go to Harpoon file 4" })
