@@ -31,14 +31,24 @@ return {
           fname
         ) or require("lspconfig.util").find_git_ancestor(fname)
       end,
-      capabilities = { 
-        offsetEncoding = {"utf-16"}
+      capabilities = {
+        offsetEncoding = { "utf-16" }
       },
       init_options = {
         usePlaceholders = true,
         completeUnimported = true,
         clangdFileStatus = true,
       },
+    }
+
+    lspconfig.rust_analyzer.setup {
+      settings = {
+        ['rust-analyzer'] = {
+          diagnostics = {
+            enable = false,
+          }
+        }
+      }
     }
 
 
