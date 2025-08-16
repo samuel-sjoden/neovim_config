@@ -27,3 +27,8 @@ set("n", "<leader>u", ":UndotreeToggle<CR>")
 
 set("n", "<leader>ls", ":LspStop<CR>")
 set("n", "<leader>li", ":lua vim.diagnostic.open_float()<CR>")
+
+-- telescope mappings
+local telescope = require('telescope.builtin')
+set('n', "<leader>ff", telescope.find_files) 
+set('n', "<leader>fg", telescope.live_grep)
