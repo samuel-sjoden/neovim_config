@@ -84,5 +84,21 @@ return {
         },
       },
     }
+
+    -- JS/TS
+    lspconfig.tsserver.setup {
+      filetypes = {"javascript", "javascriptreact", "typescript", "typescriptreact"},
+    }
+
+    --HTML
+    lspconfig.html.setup {
+      filetypes = {"html"},
+    }
+
+    --CSS
+    lspconfig.cssls.setup {
+      filetypes = {"css"},
+    }
   end
+
 }
