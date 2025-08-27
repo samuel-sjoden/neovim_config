@@ -86,7 +86,7 @@ return {
     }
 
     -- JS/TS
-    lspconfig.tsserver.setup {
+    lspconfig.ts_ls.setup {
       filetypes = {"javascript", "javascriptreact", "typescript", "typescriptreact"},
     }
 
